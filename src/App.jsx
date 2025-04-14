@@ -1,9 +1,16 @@
 import React from 'react'
 import "./App.css"
+import Navbar from './components/Navbar'
+import HomePage from './components/HomePage'
 
 const App = () => {
   return (
-    <div  >App</div>
+  <div >
+      <HomePage />
+      
+  </div>
+    
+   
   )
 }
 
