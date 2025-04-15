@@ -4,7 +4,7 @@ import Button from '../components/button'
 
 const HomePage = () => {
   return (
-    <div className='w-full h-[130vh]'>
+    <div className='w-full h-[120vh]'>
         <Navbar/>
         <div className="center w-[80vw] h-[72vh]  absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/4">
             <div className="top h-[50%] text-[7vw] tracking-tighter leading-[6vw] text-center pt-5 "><div>Enterprise Order</div>
