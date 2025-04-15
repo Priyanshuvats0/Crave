@@ -11,7 +11,7 @@ const HomePage = () => {
             <div>Management at Scale</div>
             </div>
             <div className="bottom text-center text-[1.6vw] w-[50%] absolute left-1/2  transform -translate-x-1/2 tracking-tighter -mt-[1vw]">Lunchbox is the only open, scalable restaurant solution enabling B2B catering, multi-channel ordering, and guest engagement for enterprise operations on a single platform. Now with Order Aggregation included—free. </div>
-            <div className='left-1/2 absolute bottom-1/9 -translate-x-1/2 '><Button/></div>
+            <div className='left-1/2 absolute bottom-1/9 -translate-x-1/2 '><Button color={'#FEED01'} width={'8vw'}/></div>
            
         </div>
     

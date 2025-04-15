@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 
 
-const button = () => {
+const button = ({color,width}) => {
  const [is,setIs]=useState(true);
 
   return (
@@ -12,7 +12,7 @@ const button = () => {
     //      <div className='bg-[#FEED01] text-black font-bold h-[7vh] rounded-full flex items-center justify-center'>Button1</div>
     // </div>
     
-    <div className="overflow-hidden w-[8vw] bg-[#FEED01] text-black font-bold h-[7vh] rounded-full flex items-center justify-center" onMouseEnter={()=>{setIs(false)}} onMouseLeave={()=>{setIs(true)}}>
+    <button className={`overflow-hidden w-[${width}] bg-[${color}] cursor-pointer  text-black font-bold h-[7vh] rounded-full flex items-center justify-center`} onMouseEnter={()=>{setIs(false)}} onMouseLeave={()=>{setIs(true)}}>
   {  is?(<div className='whitespace-nowrap text-xl font-bold'>Button1</div>): <motion.div
       className="whitespace-nowrap text-xl font-bold"
       animate={{
@@ -30,7 +30,7 @@ const button = () => {
       Button1
     </motion.div>}
     
-  </div>
+  </button>
   )
 }
 
