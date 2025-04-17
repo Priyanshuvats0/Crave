@@ -23,8 +23,7 @@ const App = () => {
        <Slider/>
        <IntegeratePage/>
        <PinPage/>
-       <FeaturePage/>
-       
+  
       </div>
     </ReactLenis>
   );

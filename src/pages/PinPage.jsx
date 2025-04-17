@@ -101,10 +101,7 @@ const PinPage = () => {
            </div>
         </div> 
       </section>
-      
-
-      {/* Add this so next component can scroll into view */}
-      {/* <div className="h-[100vh]"></div> */}
+    
     </div>
   );
 };
