@@ -7,6 +7,7 @@ import { ReactLenis, useLenis } from "lenis/react";
 import { useRef, useEffect } from "react";
 import Slider from "./components/Slider";
 import IntegeratePage from "./pages/IntegeratePage";
+import PinPage from "./pages/PinPage";
 
 
 const App = () => {
@@ -21,6 +22,9 @@ const App = () => {
         <FeaturePage />
        <Slider/>
        <IntegeratePage/>
+       <PinPage/>
+       <FeaturePage/>
+       
       </div>
     </ReactLenis>
   );

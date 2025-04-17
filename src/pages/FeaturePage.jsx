@@ -21,7 +21,7 @@ const FeaturePage = () => {
 //   }, [images.length]);
 
   return (
-    <div className='h-[60vw] w-full flex justify-center items-center overflow-hidden'>
+    <div className='h-[60vw] w-full flex justify-center items-center overflow-hidden z-10'>
     {/* //     <div className="center bg-black h-[90%] w-[92%] rounded-[4vw] flex justify-center items-center">
     //       <div className="w-[96%]  h-[94%] flex">
     //        <div className="left h-[100%] w-[50%] rounded-[2vw] ">
