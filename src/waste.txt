@@ -1,0 +1,42 @@
+
+-------Feature Page----------------------------------------------------------------------------------------------------------------
+
+// const images=["https://lunchbox.io/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Ferglja63hoxc%2F3zccmzKjGdVRyUmwCTDGWj%2F086d7bd5334fc86255eab6d9cea7f9da%2F8_OpenAPI_Features_Website.png&w=1920&q=75",
+//     "https://lunchbox.io/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Ferglja63hoxc%2F3zccmzKjGdVRyUmwCTDGWj%2F086d7bd5334fc86255eab6d9cea7f9da%2F8_OpenAPI_Features_Website.png&w=1920&q=75",
+//     "https://lunchbox.io/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Ferglja63hoxc%2F3zccmzKjGdVRyUmwCTDGWj%2F086d7bd5334fc86255eab6d9cea7f9da%2F8_OpenAPI_Features_Website.png&w=1920&q=75"
+// ]
+
+//     const [currentIndex, setCurrentIndex] = useState(0);
+
+//   useEffect(() => {
+//     const interval = setInterval(() => {
+//       setCurrentIndex((prevIndex) =>
+//         prevIndex === images.length - 1 ? 0 : prevIndex + 1
+//       );
+//     }, 2000);
+
+//     return () => clearInterval(interval); 
+//   }, [images.length]);
+
+  {/* //     <div className="center bg-black h-[90%] w-[92%] rounded-[4vw] flex justify-center items-center">
+    //       <div className="w-[96%]  h-[94%] flex">
+    //        <div className="left h-[100%] w-[50%] rounded-[2vw] ">
+    //         <div className="l-top w-[100%] h-[50%]">
+                 
+    //         </div>
+    //         <div className="l-bot">
+
+    //         </div>
+    //        </div>
+    //        <div className="right h-[100%] w-[50%] rounded-[2vw]  border-2 border-[#696969] bg-[#191919]"></div>
+    //        </div>
+    //     </div> */}
+
+    --------------------Piin Page-----------------------------------------------------------------------------------
+    // const imageUrls = [
+//     "https://lunchbox.io/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Ferglja63hoxc%2F6TmGLGQLbqGa2pz5Knp9JB%2F90b05ef456d23d58e8d5e189f8319135%2FOrdering_1.png&w=1080&q=75",
+//     "https://lunchbox.io/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Ferglja63hoxc%2F2e0PLHxMkBsVWVbgVOEFUk%2F522848f5f89e12314c2c8437ae34d595%2FCatering_2.png&w=1080&q=75",
+//     "https://lunchbox.io/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Ferglja63hoxc%2FHcCG60s8orT8OsXEP3jzX%2F3e45f52f2a926ddbd053faee76175f01%2FAggregation_3.png&w=1080&q=75",
+//     "https://lunchbox.io/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Ferglja63hoxc%2F6T5zGYbyEoyt0avIc8WqsP%2F3374f0721ac97b302d9bb8e4689116bd%2FAPI.png&w=1080&q=75",
+//     "https://lunchbox.io/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Ferglja63hoxc%2FfXWpz666FhREfcnKaaQnH%2F5f0fa853932295ab220b0b05e8ba22ff%2FMarketing_2.png&w=1080&q=75"
+//   ];
